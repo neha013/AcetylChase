@@ -12,9 +12,10 @@ The [ChEMBL](https://www.ebi.ac.uk/chembl/) Database is a curated database of bi
 
 Our project has yielded promising results, as highlighted in the table below. We have evaluated our model based on various metrics to assess its performance and effectiveness.
 
-| Metric | Result |
-|--------|--------|
-| [Metric 1] | [Result 1] |
-| [Metric 2] | [Result 2] |
-| [Metric 3] | [Result 3] |
-| ... | ... |
+| Regressor | MSE | R2 Score |
+|--------|--------|--------|
+| [Random Forest Regressor] | [1.3779] | [0.5715] |
+| [Decision Tree Regressor] | [1.9579] | [0.3912] |
+| [KNeighbors Regressor] | [1.5433] | [0.5201] |
+| [Bagging Regressor]| [1.5366] | [0.5222] |
+| [Support Vector Regressor] | [1.6548] | [0.4854] |
